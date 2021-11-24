@@ -1,0 +1,19 @@
+name: MythicClearMessage
+version: ${project.version}
+main: MythicClearMessage.MythicClearMessage
+api-version: 1.15
+authors: [46kuri_]
+description: MythicSubPlugin
+
+commands:
+  MythicClearMessage:
+    description: MythicClearMessage Reload
+    permission: MythicClearMessage.permission.Admin
+  mcm:
+    description: MythicClearMessage Reload
+    permission: MythicClearMessage.permission.Admin
+permissions:
+  MythicClearMessage.permission.Admin:
+    default: op
+  MythicClearMessage.permission.Member:
+    default: true
