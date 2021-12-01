@@ -1,6 +1,6 @@
 name: MythicClearMessage
 version: ${project.version}
-main: MythicClearMessage.MythicClearMessage
+main: com.github.sirokuri_.MythicClearMessage.MythicClearMessage
 api-version: 1.15
 authors: [46kuri_]
 description: MythicSubPlugin
